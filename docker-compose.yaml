@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+  kindle-weather:
+    container_name: kindle-weather
+    build:
+      context: ./
+    #image: wernight/mopidy
+    #privileged: true
+    volumes:
+    devices:
+    ports:
+      - 5555:3000
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                         
